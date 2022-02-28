@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2022-02-28T18:00:23.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7W1NSNAUMNs-EiuNwDnq" version="16.6.4" type="github">
+  <diagram id="MmdK3k2Pf1Nja4L4yjud" name="Page-1">
+    <mxGraphModel dx="1258" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kpae4aajfegEZOzrAfut-1" value="Feature: search tutor&#39;s posts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpae4aajfegEZOzrAfut-2" value="As a student" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpae4aajfegEZOzrAfut-3" value="so that I can find a tutor to help me finish HW" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpae4aajfegEZOzrAfut-4" value="Search different category, like major, price, schedule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="380" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
