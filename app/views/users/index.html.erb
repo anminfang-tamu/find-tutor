@@ -1,0 +1,32 @@
+<h1>Users</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>User Name</th>
+            <th>Display Name</th>
+            <th>Gender</th>
+            <th>Major</th>
+            <th>Tutor Major</th>
+            <th>Email</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @users.each do |user| %>
+            <tr>
+                <td><%= user.first_name %></td>
+                <td><%= user.last_name %></td>
+                <td><%= user.user_name %></td>
+                <td><%= user.display_name %></td>
+                <td><%= user.gender %></td>
+                <td><%= user.major %></td>
+                <td><%= user.tutor_major %></td>
+                <td><%= user.email %></td>
+                <td><%= user.description %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>

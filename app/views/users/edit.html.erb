@@ -1,0 +1,44 @@
+<h1>Edit Profile</h1>
+
+<% if @user.errors.any? %>
+    <h2>The following errors prevented profile from being created</h2>
+    <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+    </ul>
+<% end %>
+
+<%= form_tag user_path(@user), :method => :put, :class => 'form' do %>
+    <div class="form-group">
+        <%= label :user, :first_name, 'First Name', :class => 'col-form-label' %>
+        <%= text_field :user, :first_name, :class => 'form-control' %>
+        
+        <%= label :user, :last_name, 'Last Name', :class => 'col-form-label'  %>
+        <%= text_field :user, :last_name, :class => 'form-control' %>
+      
+        <%= label :user, :gender, 'Gender', :class => 'col-form-label' %>
+        <%= select :user, :gender, ['Male', 'Female', 'Unknown'], {}, {:class => 'form-control col-1'} %>
+      
+        <%= label :user, :user_name, 'User Name', :class => 'col-form-label' %>
+        <%= text_field :user, :user_name, :class => 'form-control' %>
+      
+        <%= label :user, :display_name, 'Display Name', :class => 'col-form-label' %>
+        <%= text_field :user, :display_name, :class => 'form-control' %>
+        
+        <%= label :user, :email, 'Email', :class => 'col-form-label' %>
+        <%= text_field :user, :email, :class => 'form-control' %>
+      
+        <%= label :user, :major, 'Major', :class => 'col-form-label' %>
+        <%= text_field :user, :major, :class => 'form-control' %>
+      
+        <%= label :user, :tutor_major, 'Tutor Major', :class => 'col-form-label' %>
+        <%= text_field :user, :tutor_major, :class => 'form-control' %>
+      
+        <%= label :user, :description, 'Self Description', :class => 'col-form-label' %>
+        <%= text_field :user, :description, :class => 'form-control' %>
+      <br/>
+      <%= submit_tag 'Edit', :class => 'btn btn-success' %>
+      <%= link_to 'Cancel', users_path, :class => 'btn btn-danger' %>
+    </div>
+<% end %>
