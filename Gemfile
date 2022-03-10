@@ -55,3 +55,7 @@ group :test do
   gem 'cucumber', '~> 7.1.0'
   gem 'rspec', '~> 3.10.0'
 end
+
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
