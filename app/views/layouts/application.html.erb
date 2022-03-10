@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>FindTutor</title>
+    
+    
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,9 +11,7 @@
   </head>
 
   <body>
-    <% flash.each do |name, msg| %>
-      <%= msg %>
-    <% end %>
+    <% render 'layouts/messages' %>
     <%= yield %>
   </body>
 </html>
