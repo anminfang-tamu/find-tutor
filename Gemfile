@@ -39,6 +39,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'cucumber', '~> 7.1.0'
   gem 'cucumber-rails', require: false
+  gem 'rails-controller-testing'
 end
 
 group :development do
